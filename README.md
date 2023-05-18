@@ -1,0 +1,1 @@
+## Types for the naked-ssg library #

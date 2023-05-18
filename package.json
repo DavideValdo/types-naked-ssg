@@ -1,0 +1,14 @@
+{
+  "name": "@millino/types-naked-ssg",
+  "version": "0.0.2",
+  "description": "Types for the naked-ssg library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davide Valdo Biagini",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}

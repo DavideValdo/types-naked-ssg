@@ -2,7 +2,7 @@ import { PageConfiguration } from "./PageConfiguration"
 import ProxyEntry, { ProxyEntryPayload } from "./ProxyEntry"
 
 type ProxyConfiguration = {
-  data: ProxyEntry
+  fetchData: () => Promise<ProxyEntry>
   templateName: string
   localConfigFactory: (data: ProxyEntryPayload) => Partial<PageConfiguration>
 }

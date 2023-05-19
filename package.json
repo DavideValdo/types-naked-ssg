@@ -1,6 +1,6 @@
 {
   "name": "@millino/types-naked-ssg",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Types for the naked-ssg library.",
   "main": "index.js",
   "scripts": {

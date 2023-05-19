@@ -1,1 +1,1 @@
-{"version":3,"file":"SiteConfiguration.d.ts","sourceRoot":"","sources":["../../types/SiteConfiguration.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,iBAAiB,GAAG;IAC9B,QAAQ,EAAE,MAAM,EAAE,CAAC;CACpB,CAAC"}
+{"version":3,"file":"SiteConfiguration.d.ts","sourceRoot":"","sources":["../../types/SiteConfiguration.ts"],"names":[],"mappings":"AAAA,OAAO,kBAAkB,MAAM,sBAAsB,CAAA;AAErD,MAAM,MAAM,iBAAiB,GAAG;IAC9B,QAAQ,EAAE,MAAM,EAAE,CAAA;IAClB,OAAO,CAAC,EAAE,kBAAkB,EAAE,CAAA;CAC/B,CAAA"}

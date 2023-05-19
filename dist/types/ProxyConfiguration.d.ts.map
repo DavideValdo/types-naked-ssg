@@ -1,0 +1,1 @@
+{"version":3,"file":"ProxyConfiguration.d.ts","sourceRoot":"","sources":["../../types/ProxyConfiguration.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,qBAAqB,CAAA;AAEvD,KAAK,kBAAkB,GAAG;IACxB,IAAI,EAAE,KAAK,CAAC,OAAO,CAAC,CAAA;IACpB,YAAY,EAAE,MAAM,CAAA;IACpB,kBAAkB,EAAE,CAAC,IAAI,EAAE,OAAO,KAAK,OAAO,CAAC,iBAAiB,CAAC,CAAA;CAClE,CAAA;AAED,eAAe,kBAAkB,CAAA"}

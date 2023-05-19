@@ -1,10 +1,10 @@
-export type ProxyEntryPayload = ({
+export type ProxyEntryPayload = {
   slug: string
-} & Record<string, unknown>)[]
+} & Record<string, unknown>
 
 /**
  * The key is the culture code.
  */
-type ProxyEntry = Record<string, ProxyEntryPayload>
+type ProxyEntry = Record<string, ProxyEntryPayload[]>
 
 export default ProxyEntry

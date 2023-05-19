@@ -1,10 +1,10 @@
 import { PageConfiguration } from "./PageConfiguration"
-import ProxyEntry from "./ProxyEntry"
+import ProxyEntry, { ProxyEntryPayload } from "./ProxyEntry"
 
 type ProxyConfiguration = {
-  data: Array<ProxyEntry>
+  data: ProxyEntry
   templateName: string
-  localConfigFactory: (data: ProxyEntry) => Partial<PageConfiguration>
+  localConfigFactory: (data: ProxyEntryPayload) => Partial<PageConfiguration>
 }
 
 export default ProxyConfiguration

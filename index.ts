@@ -1,6 +1,6 @@
 import { PageConfiguration } from "./types/PageConfiguration"
 import ProxyConfiguration from "./types/ProxyConfiguration"
-import ProxyEntry from "./types/ProxyEntry"
+import ProxyEntry, { ProxyEntryPayload } from "./types/ProxyEntry"
 import { SiteConfiguration } from "./types/SiteConfiguration"
 import { TranslationsMap } from "./types/TranslationsMap"
 
@@ -10,4 +10,5 @@ export {
   TranslationsMap,
   ProxyConfiguration,
   ProxyEntry,
+  ProxyEntryPayload,
 }

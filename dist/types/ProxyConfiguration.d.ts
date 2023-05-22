@@ -1,8 +1,7 @@
-import { PageConfiguration } from "./PageConfiguration";
-type ProxyConfiguration = {
-    data: Array<unknown>;
+import ProxyCultureRecordsMap from "./ProxyCultureRecordsMap";
+type ProxyConfiguration<T> = {
+    fetchData: () => Promise<ProxyCultureRecordsMap<T>>;
     templateName: string;
-    localConfigFactory: (data: unknown) => Partial<PageConfiguration>;
 };
 export default ProxyConfiguration;
 //# sourceMappingURL=ProxyConfiguration.d.ts.map

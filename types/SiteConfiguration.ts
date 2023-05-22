@@ -1,6 +1,6 @@
 import ProxyConfiguration from "./ProxyConfiguration"
 
-export type SiteConfiguration = {
+export type SiteConfiguration<T> = {
   cultures: string[]
-  proxies?: ProxyConfiguration[]
+  proxies?: ProxyConfiguration<T>[]
 }

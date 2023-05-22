@@ -1,10 +1,8 @@
-import { PageConfiguration } from "./PageConfiguration"
-import ProxyEntry, { ProxyEntryPayload } from "./ProxyEntry"
+import ProxyCultureRecordsMap from "./ProxyCultureRecordsMap"
 
-type ProxyConfiguration = {
-  fetchData: () => Promise<ProxyEntry>
+type ProxyConfiguration<T> = {
+  fetchData: () => Promise<ProxyCultureRecordsMap<T>>
   templateName: string
-  localConfigFactory: (data: ProxyEntryPayload) => Partial<PageConfiguration>
 }
 
 export default ProxyConfiguration

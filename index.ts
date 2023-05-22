@@ -1,6 +1,11 @@
 import { PageConfiguration } from "./types/PageConfiguration"
 import ProxyConfiguration from "./types/ProxyConfiguration"
-import ProxyEntry, { ProxyEntryPayload } from "./types/ProxyEntry"
+import PagePayload from "./types/PagePayload"
+import PageBuilder from "./types/PageBuilder"
+import ProxyPageBuilder from "./types/ProxyPageBuilder"
+import ProxyCultureRecordsMap, {
+  SlugRecord,
+} from "./types/ProxyCultureRecordsMap"
 import { SiteConfiguration } from "./types/SiteConfiguration"
 import { TranslationsMap } from "./types/TranslationsMap"
 
@@ -9,6 +14,9 @@ export {
   SiteConfiguration,
   TranslationsMap,
   ProxyConfiguration,
-  ProxyEntry,
-  ProxyEntryPayload,
+  ProxyCultureRecordsMap,
+  SlugRecord,
+  ProxyPageBuilder,
+  PageBuilder,
+  PagePayload,
 }

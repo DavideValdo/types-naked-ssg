@@ -1,7 +1,7 @@
 import { PageConfiguration } from "./PageConfiguration"
 
 type PagePayload = {
-  html: string
+  html: () => Promise<string>
   config: PageConfiguration
 }
 

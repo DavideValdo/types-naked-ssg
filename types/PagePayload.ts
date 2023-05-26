@@ -1,7 +1,7 @@
 import { PageConfiguration } from "./PageConfiguration"
 
-type PagePayload = {
-  html: () => Promise<string>
+type PagePayload<PT> = {
+  html: (proxyItem?: PT) => Promise<string>
   config: PageConfiguration
 }
 

@@ -1,5 +1,5 @@
 import PagePayload from "./PagePayload"
 
-type PageBuilder = (cultureCode: string) => PagePayload
+type PageBuilder<PT = void> = (cultureCode: string) => PagePayload<PT>
 
 export default PageBuilder

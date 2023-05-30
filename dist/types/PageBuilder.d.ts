@@ -1,4 +1,3 @@
-import PagePayload from "./PagePayload";
-type PageBuilder<PT = void> = (cultureCode: string) => PagePayload<PT>;
-export default PageBuilder;
+import { PagePayload } from "./PagePayload";
+export type PageBuilder<PT = unknown> = (cultureCode: string) => PagePayload<PT>;
 //# sourceMappingURL=PageBuilder.d.ts.map

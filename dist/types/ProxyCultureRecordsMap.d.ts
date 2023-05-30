@@ -4,9 +4,8 @@ export type SlugRecord<T> = {
 /**
  * The key is the culture code.
  */
-type ProxyCultureRecordsMap<T> = Record<string, {
+export type ProxyCultureRecordsMap<T> = Record<string, {
     data: SlugRecord<T>[];
     directory: string;
 }>;
-export default ProxyCultureRecordsMap;
 //# sourceMappingURL=ProxyCultureRecordsMap.d.ts.map

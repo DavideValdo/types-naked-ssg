@@ -1,8 +1,6 @@
-import ProxyCultureRecordsMap from "./ProxyCultureRecordsMap"
+import { ProxyCultureRecordsMap } from "./ProxyCultureRecordsMap"
 
-type ProxyConfiguration<PT> = {
+export type ProxyConfiguration<PT> = {
   fetchData: () => Promise<ProxyCultureRecordsMap<PT>>
   templateName: string
 }
-
-export default ProxyConfiguration

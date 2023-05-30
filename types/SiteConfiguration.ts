@@ -1,4 +1,4 @@
-import ProxyConfiguration from "./ProxyConfiguration"
+import { ProxyConfiguration } from "./ProxyConfiguration"
 
 export type SiteConfiguration = {
   cultures: string[]

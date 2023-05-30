@@ -1,0 +1,1 @@
+{"version":3,"file":"LayoutFunctionSignature.d.ts","sourceRoot":"","sources":["../../types/LayoutFunctionSignature.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,qBAAqB,CAAA;AAEvD,MAAM,MAAM,uBAAuB,GAAG;IACpC,IAAI,EAAE,MAAM,CAAA;IACZ,WAAW,EAAE,iBAAiB,CAAA;IAC9B,WAAW,CAAC,EAAE,MAAM,CAAA;CACrB,CAAA"}

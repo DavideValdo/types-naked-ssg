@@ -2,6 +2,6 @@ import { PageConfiguration } from "./PageConfiguration"
 
 export type LayoutFunctionSignature = {
   html: string
-  localConfig: PageConfiguration
+  config: PageConfiguration
   cultureCode?: string
 }

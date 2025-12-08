@@ -5,4 +5,4 @@ import { LayoutFunctionSignature } from "./LayoutFunctionSignature"
  */
 export type LayoutFunction<AP = unknown> = (
   params: LayoutFunctionSignature & AP
-) => string
+) => Promise<string>

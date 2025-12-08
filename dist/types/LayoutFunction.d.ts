@@ -2,5 +2,5 @@ import { LayoutFunctionSignature } from "./LayoutFunctionSignature";
 /**
  * @param AP AugmentedParam
  */
-export type LayoutFunction<AP = unknown> = (params: LayoutFunctionSignature & AP) => string;
+export type LayoutFunction<AP = unknown> = (params: LayoutFunctionSignature & AP) => Promise<string>;
 //# sourceMappingURL=LayoutFunction.d.ts.map

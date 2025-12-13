@@ -1,5 +1,9 @@
 import type { LayoutFunction } from "./types/LayoutFunction"
-import type { LayoutFunctionSignature } from "./types/LayoutFunctionSignature"
+import type {
+  LayoutFunctionSignature,
+  PageLayoutFunctionSignature,
+  ProxyLayoutFunctionSignature,
+} from "./types/LayoutFunctionSignature"
 import type { PageBuilder } from "./types/PageBuilder"
 import type { PageConfiguration } from "./types/PageConfiguration"
 import type { PagePayload } from "./types/PagePayload"
@@ -16,9 +20,11 @@ export {
   LayoutFunctionSignature,
   PageBuilder,
   PageConfiguration,
+  PageLayoutFunctionSignature,
   PagePayload,
   ProxyConfiguration,
   ProxyCultureRecordsMap,
+  ProxyLayoutFunctionSignature,
   SiteConfiguration,
   SlugRecord,
   TranslationsMap,

@@ -3,11 +3,11 @@ import { SlugRecord } from "./ProxyCultureRecordsMap";
 export type LayoutFunctionSignature = {
     config: PageConfiguration;
     cultureCode?: string;
-} & ({
-    type: "page";
+};
+export type PageLayoutFunctionSignature = LayoutFunctionSignature & {
     html: string;
-} | {
-    type: "proxy";
+};
+export type ProxyLayoutFunctionSignature = LayoutFunctionSignature & {
     slugRecord: SlugRecord<unknown>;
-});
+};
 //# sourceMappingURL=LayoutFunctionSignature.d.ts.map

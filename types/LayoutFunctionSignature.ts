@@ -4,7 +4,12 @@ import { SlugRecord } from "./ProxyCultureRecordsMap"
 export type LayoutFunctionSignature = {
   config: PageConfiguration
   cultureCode?: string
-} & (
-  | { type: "page"; html: string }
-  | { type: "proxy"; slugRecord: SlugRecord<unknown> }
-)
+}
+
+export type PageLayoutFunctionSignature = LayoutFunctionSignature & {
+  html: string
+}
+
+export type ProxyLayoutFunctionSignature = LayoutFunctionSignature & {
+  slugRecord: SlugRecord<unknown>
+}
